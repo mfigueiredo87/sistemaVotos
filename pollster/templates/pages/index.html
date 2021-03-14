@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+    <div class="card-body">
+        <h1>Bem vindo ao Sistema de Votos</h1>
+        <p>Este é um exemplo de Sistema de Votos feito com Django</p>
+        <a class="btn btn-dark" href="{% url 'polls:index' %}">Ver as Perguntas Disponiveis</a>
+    </div>
+
+</div>
+
+{% endblock %}
